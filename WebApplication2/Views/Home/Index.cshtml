@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/site.css"/>
+
+<section>
+<div class="text-center">
+    <h1 class="display-4">Bienvenido</h1>
+    <p>Mas informacion <a target="_blank" href="https://ffmpeg.org/">sobre esta libreria</a>.</p>
+</div>
+</section>
+
+<section>
+<div>
+    
+    <h2>Libreria FFMPEG</h2>
+    <hr/>
+    <p class="justificado">
+    FFmpeg es una colección de software libre que puede grabar, convertir (transcodificar) y hacer streaming de audio
+    y vídeo. Incluye libavcodec, una biblioteca de códecs. FFmpeg está desarrollado en GNU/Linux, pero puede ser compilado 
+    en la mayoría de los sistemas operativos, incluyendo Windows. El proyecto comenzó por Gerard Lantau, un seudónimo de 
+    Fabrice Bellard, y ahora es mantenido por Michael Niedermayer. Es destacable que la mayoría de los desarrolladores de 
+    FFmpeg lo sean también del proyecto MPlayer (más un miembro del proyecto Xine), y que FFmpeg esté hospedado en el 
+    servidor del proyecto MPlayer.
+    </p>
+
+    <p class="justificado">
+    FFmpeg está liberado bajo una licencia GNU Lesser General Public License 2.1+ o GNU General Public License 2+ 
+    (dependiendo de qué bibliotecas estén incluidas).2​ Los desarrolladores recomiendan utilizar el último snapshot 
+    de Subversion ya que mantienen constantemente una versión estable.
+    FFmpeg es un programa de línea de órdenes que en cierta medida puede ser utilizado tanto por personas con conocimientos 
+    avanzados como por usuarios con conocimentos básicos. Es capaz de elegir el códec con sólo escribir la extensión. 
+    Por ejemplo, FFmpeg usará x264 si elegimos .mp4, mpeg4 si usamos .avi, VP8 si usamos .webm, etc...
+    </p>
+
+    <h2>Componentes</h2>
+    <hr/>
+    <p class="justificado">
+    El proyecto está compuesto por:
+    ffmpeg: es una herramienta de línea de comandos para convertir audio o video de un formato a otro. También puede capturar y codificar en tiempo real desde DirectShow, una tarjeta de televisión u otro dispositivo compatible.
+    ffserver: es un servidor de streaming multimedia de emisiones en directo que soporta HTTP (la compatibilidad con RTSP está en desarrollo). Todavía no está en fase estable, y de momento no está disponible para Windows.
+    ffplay: es un reproductor multimedia basado en SDL y las bibliotecas FFmpeg.
+    libavcodec: es una biblioteca que contiene todos los códecs de FFmpeg. Muchos de ellos fueron desarrollados desde cero para asegurar una mayor eficiencia y un código altamente reutilizable.
+    libavformat: es una biblioteca que contiene los multiplexadores/demultiplexadores para los archivos contenedores multimedia.
+    libavutil: es una biblioteca de apoyo que contiene todas las rutinas comunes en las diferentes partes de FFmpeg.
+    libpostproc: es una biblioteca de funciones de postproceso de vídeo.
+    libswscale: es la biblioteca de escalado de vídeo.
+    </p>
+
+     <h2>Galeria</h2>
+     <hr/>
+     <div>
+     <img src="~/image/FormularioLogin.PNG"/>
+     <img src="~/image/FormularioConversor.PNG"/>
+     </div>
+     
+
+
+</div>
+</section>

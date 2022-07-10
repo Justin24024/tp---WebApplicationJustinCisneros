@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "REGISTER";
+}
+
+<link rel="stylesheet" href="~/css/site.css"/>
+
+<h1>@ViewData["Title"]</h1>
+
+<body>
+    <section class="formulario-register">
+        <h4>FORMULARIO DE REGISTRO</h4>
+        <input class="control" type="text" name="nombre" id="nombre" placeholder="Ingrese usuario"/>
+        <input class="control" type="text" name="apellido" id="apellido" placeholder="Ingrese apellido"/>
+        <input class="control" type="email" name="email" id="email" placeholder="Ingrese su correo"/>
+        <input class="control" type="password" name="password" id="password" placeholder="Ingrese su contraseña"/>
+
+        <input class="boton" type="submit" value="Registrar"/>
+    </section>
+</body>

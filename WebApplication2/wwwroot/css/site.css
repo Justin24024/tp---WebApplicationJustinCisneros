@@ -1,0 +1,70 @@
+nav,h1,h2,h3,h4 {
+    font-family: 'Asus Rog';
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.justificado{
+text-align:justify;
+}
+
+.formulario-register {
+width: 400px;
+background: #24303c;
+padding: 30px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family:'Asus Rog';
+color: white;
+}
+
+.formulario-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    }
+
+.control {
+width: 100%;
+background: #24303c;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 16px;
+
+}
+
+.boton {
+color: black;
+}
+
+input {
+color: white;
+}
+
+::placeholder {
+color: white;
+}
+
+.bg-green {
+    background: #2D872A;
+}
+
+.text-white {
+    color: white;
+}
